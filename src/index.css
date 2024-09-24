@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.resume-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: #f7f7f7;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.sidebar {
+  width: 30%;
+  padding: 20px;
+  background-color: #e5f1fb;
+  color: #333;
+}
+
+.sidebar h1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: #388087;
+}
+
+.sidebar p {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+.contact a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+
+.profile-picture {
+  width: 100px;  
+  height: 100px;
+  border-radius: 50%;  
+  object-fit: cover;  
+  margin-bottom: 15px;  
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content {
+  width: 70%;
+  padding: 20px;
+  color: #333;
+}
+
+.main-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.work-item {
+  margin-bottom: 20px;
+}
+
+.work-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #388087;
+}
+
+.work-item ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills ul li {
+  padding: 5px 0;
 }
